@@ -1,0 +1,19 @@
+{
+  "name": "nitro-development-bot",
+  "version": "1.0.0",
+  "description": "Nitro Development Discord Main Bot",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bot.js",
+    "dev": "nodemon ./bot.js"
+  },
+  "keywords": [],
+  "author": "Nitro Development",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0",
+    "gamedig": "^2.0.23"
+  }
+}
